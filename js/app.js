@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render categories
     const categoryGrid = document.getElementById('categoryGrid');
-    if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname === 'Module-3-Assessment-2') {
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('Module-3-Assessment-2/')) {
         categories.forEach(category => {
             const categoryCard = createCategoryCard(category);
             categoryGrid.appendChild(categoryCard);
