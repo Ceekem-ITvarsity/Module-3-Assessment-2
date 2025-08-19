@@ -64,7 +64,7 @@ const menuItems = [
         price: 8.99,
         servingSize: '4 pieces',
         // image: 'https://images.pexels.com/photos/7938992/pexels-photo-7938992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        image: '../imgs/Feta-Bruschetta.jpg',
+        image: './imgs/Feta-Bruschetta.jpg',
         extras: [
             { id: 'extra-cheese', name: 'Extra Mozzarella', price: 1.50 },
             { id: 'balsamic', name: 'Balsamic Glaze', price: 0.75 },
@@ -94,7 +94,7 @@ const menuItems = [
         description: 'In this Bahraini dish, the meat (or fish or vegetables) is left to steam and cook gently without any liquid, and the rice is piled on top.',
         price: 29.99,
         servingSize: 'Perry Source',
-        image: '../imgs/FEGAATA.jpg',
+        image: './imgs/FEGAATA.jpg',
         extras: [
             { id: 'spice-blend', name: 'Spice Blend', price: 1.99 }
         ]
@@ -105,7 +105,7 @@ const menuItems = [
         description: 'Spicy twist on the classic Italian porchetta – serve with seasonal roast vegetables or crispy rice.',
         price: 29.99,
         servingSize: '12oz with sides',
-        image: '../imgs/Porchetta.jpg',
+        image: './imgs/Porchetta.jpg',
         extras: [
             { id: 'Spinach', name: 'Spinach-brils', price: 1.99 },
             { id: 'mushroom-sauce', name: 'Sautéed Mushroom Sauce', price: 2.99 },
@@ -135,7 +135,7 @@ const menuItems = [
         description: 'Warm chocolate cake with a gooey molten center, served with vanilla bean ice cream.',
         price: 9.49,
         servingSize: 'Individual portion',
-        image: '../imgs/dessert_1.jpg',
+        image: './imgs/dessert_1.jpg',
         extras: [
             { id: 'raspberry-coulis', name: 'Raspberry Coulis', price: 0.95 },
             { id: 'extra-ice-cream', name: 'Extra Scoop Ice Cream', price: 1.50 },
@@ -149,7 +149,7 @@ const menuItems = [
         description: 'Silky smooth panna cotta infused with Madagascar vanilla, topped with seasonal berries.',
         price: 7.99,
         servingSize: 'Individual portion',
-        image: '../imgs/panna-cotta.jpg',
+        image: './imgs/panna-cotta.jpg',
         extras: [
             { id: 'honey-drizzle', name: 'Wildflower Honey Drizzle', price: 0.70 },
             { id: 'toasted-almonds', name: 'Toasted Almond Flakes', price: 0.90 },
@@ -166,7 +166,7 @@ const menuItems = [
         description: 'Our signature blend of red wine, brandy, and fresh fruits. Refreshing and fruity.',
         price: 9.99,
         servingSize: 'Glass',
-        image: '../imgs/sour-cherry-paloma.jpg',
+        image: './imgs/sour-cherry-paloma.jpg',
         extras: [
             { id: 'pitcher', name: 'Upgrade to Pitcher', price: 18.00 },
             { id: 'extra-fruit', name: 'Extra Fruit', price: 1.00 }
@@ -179,7 +179,7 @@ const menuItems = [
         description: 'Fresh mint leaves muddled with lime, sugar, white rum, and a splash of soda for a crisp finish.',
         price: 8.49,
         servingSize: 'Glass',
-        image: '../imgs/sweet-rum-punch.jpg',
+        image: './imgs/sweet-rum-punch.jpg',
         extras: [
             { id: 'extra-mint', name: 'Extra Mint', price: 0.50 },
             { id: 'passionfruit', name: 'Add Passionfruit', price: 1.25 },
@@ -193,7 +193,7 @@ const menuItems = [
         description: 'Chilled sparkling mineral water served with a wedge of lemon or lime.',
         price: 3.50,
         servingSize: '330ml Bottle',
-        image: '../imgs/sparkling.jpg',
+        image: './imgs/sparkling.jpg',
         extras: [
             { id: 'cucumber-slices', name: 'Cucumber Slices', price: 0.50 },
             { id: 'berry-syrup', name: 'Dash of Berry Syrup', price: 0.75 }
